@@ -1,0 +1,26 @@
+{
+  "name": "Simulations original Unreal downloads",
+  "on": {
+    "workflow_dispatch": {}
+  },
+  "permissions": {
+    "contents": "write"
+  },
+  "jobs": {
+    "transfer": {
+      "runs-on": "ubuntu-latest",
+      "timeout-minutes": 90,
+      "env": {
+        "GH_TOKEN": "${{ github.token }}",
+        "GH_REPO": "Ishmael366/Unreal-FPS-Game",
+        "DOWNLOAD_JOBS": "[{\"video_id\": \"8MKxbGjicJ0\", \"title\": \"UE4 With Casey - God of War Axe Throw Tutorial\", \"source_url\": \"https://drive.google.com/open?id=1_siT-p2wZdH4NQxHDppNWnTFKPn2J2WD\", \"file_id\": \"1_siT-p2wZdH4NQxHDppNWnTFKPn2J2WD\"}, {\"video_id\": \"3P1A73Ghisw\", \"title\": \"How to Make a Car Racing Game in Unreal Engine 5 - UE5 Beginner Tutorial\", \"source_url\": \"https://drive.google.com/file/d/1Zldj3tkfNMvoSMaAnnSkaUDjA1uR_D5f/view?usp=sharing\", \"file_id\": \"1Zldj3tkfNMvoSMaAnnSkaUDjA1uR_D5f\"}, {\"video_id\": \"UVTzVtxxgE0\", \"title\": \"Unreal Engine 5 Beginner Tutorial - Getting Started\", \"source_url\": \"https://drive.google.com/file/d/1apmoO9fLGQ8GVlzHBLBMbot-x8e2AF7R/view?usp=sharing\", \"file_id\": \"1apmoO9fLGQ8GVlzHBLBMbot-x8e2AF7R\"}, {\"video_id\": \"9Fd9hw329fY\", \"title\": \"Create A 2.5D Platformer Game With Unreal Engine (Tutorial)\", \"source_url\": \"https://drive.google.com/file/d/1lAOYnsPh3oq89nfyc31zn5KrVs5wBK4p/view?usp=sharing\", \"file_id\": \"1lAOYnsPh3oq89nfyc31zn5KrVs5wBK4p\"}, {\"video_id\": \"9Fd9hw329fY\", \"title\": \"Create A 2.5D Platformer Game With Unreal Engine (Tutorial)\", \"source_url\": \"https://drive.google.com/file/d/16jVlY4LB1CYVf0Lg2yyaESzLi_-4gErG/view?usp=sharing\", \"file_id\": \"16jVlY4LB1CYVf0Lg2yyaESzLi_-4gErG\"}, {\"video_id\": \"bY6Nl-OEhSo\", \"title\": \"Unreal Engine 5 Blueprints Beginner Tutorial - Smart Poly\", \"source_url\": \"https://drive.google.com/file/d/1orHiPGEyCjAJ32PaSYcb_uBokKoZt8P5/view?usp=sharing\", \"file_id\": \"1orHiPGEyCjAJ32PaSYcb_uBokKoZt8P5\"}]"
+      },
+      "steps": [
+        {
+          "name": "Copy linked original archives and verify ZIP integrity",
+          "run": "python3 - <<'PY'\nimport json,os,subprocess,tempfile,hashlib,shutil,zipfile\nfrom pathlib import Path\nsubprocess.run(['python','-m','pip','install','--quiet','gdown'],check=True)\nimport gdown\njobs=json.loads(os.environ['DOWNLOAD_JOBS']);tag='simulations-original-project-downloads';audit=[]\ndef gh(args):\n r=subprocess.run(['gh']+args,capture_output=True,text=True)\n if r.returncode:raise RuntimeError(r.stderr[:800])\n return r.stdout\ntry:gh(['release','view',tag])\nexcept:gh(['release','create',tag,'--title','Simulations original Unreal project downloads','--notes','Original publicly accessible project files linked in the Simulations playlist. Large archives are split into ordered parts; concatenate all parts to restore the original file. See original-download-audit.json for original URLs, SHA-256 hashes, ZIP checks and download errors. Original authors retain their notices and rights.'])\nfor job in jobs:\n folder=Path(tempfile.mkdtemp());item=dict(job)\n try:\n  file=folder/(job['video_id']+'-'+job['file_id']+'.zip')\n  result=gdown.download(id=job['file_id'],output=str(file),quiet=True)\n  if not result:raise RuntimeError('Original file unavailable or requires owner access')\n  if not zipfile.is_zipfile(file):raise RuntimeError('Download is not a ZIP archive; preserved original is not published as a project')\n  with zipfile.ZipFile(file) as z:\n   item['project_files']=[n for n in z.namelist() if n.endswith('.uproject')];bad=z.testzip()\n   if bad:raise RuntimeError('ZIP CRC failed: '+bad)\n  h=hashlib.sha256();assets=[]\n  with open(file,'rb') as src:\n   if file.stat().st_size<1900000000:\n    for chunk in iter(lambda:src.read(4*1024*1024),b''):h.update(chunk)\n    gh(['release','upload',tag,str(file),'--clobber']);assets.append(file.name)\n   else:\n    number=0\n    while True:\n     data=src.read(1500000000)\n     if not data:break\n     h.update(data);part=folder/(file.name+'.part'+str(number).zfill(3));part.write_bytes(data);gh(['release','upload',tag,str(part),'--clobber']);assets.append(part.name);part.unlink();number+=1\n  item.update(status='uploaded',bytes=file.stat().st_size,sha256=h.hexdigest(),zip_crc_verified=True,assets=assets)\n except Exception as e:item.update(status='blocked',error=str(e))\n audit.append(item);Path('original-download-audit.json').write_text(json.dumps(audit,indent=2));gh(['release','upload',tag,'original-download-audit.json','--clobber']);print(job['video_id'],item['status'],flush=True);shutil.rmtree(folder,ignore_errors=True)\nif any(x['status']!='uploaded' for x in audit):raise SystemExit('Some original links are unavailable; see audit')\n\nPY"
+        }
+      ]
+    }
+  }
+}
