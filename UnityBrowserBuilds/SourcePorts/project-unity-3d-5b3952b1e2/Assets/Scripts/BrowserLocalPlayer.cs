@@ -1,0 +1,1 @@
+using UnityEngine;public class BrowserLocalPlayer:MonoBehaviour { public bool local=true; }

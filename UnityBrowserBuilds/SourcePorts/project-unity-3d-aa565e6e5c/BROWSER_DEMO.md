@@ -1,0 +1,1 @@
+The browser export previews the original 3D shop scene, movement and inventory UI with local sample items. Wallet authentication, blockchain transactions and network inventory are disabled in this demo. Original backend scripts are retained in BrowserOriginalSource. The published SDK is restored from the verified Moralis npm package, version 1.2.11, with its license preserved.

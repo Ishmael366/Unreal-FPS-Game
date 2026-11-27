@@ -1,0 +1,19 @@
+{
+    "status": "Succeeded",
+    "output": "/Users/neo/Documents/Codex/continuation/unity-demos/webgl/recovered-bullet-hell-source",
+    "unityVersion": "2022.3.62f1",
+    "bytes": 9249368,
+    "errors": 0,
+    "warnings": 9,
+    "scenes": [
+        "Assets/AlexanderZotov/Scenes/01_Basic.unity",
+        "Assets/AlexanderZotov/Scenes/02_Spiral.unity",
+        "Assets/AlexanderZotov/Scenes/03_DoubleSpiral.unity",
+        "Assets/Jongallant/Scenes/LiquidDemo.unity",
+        "Assets/Maieron/Scenes/1.unity",
+        "Assets/StephenHubbard/Scenes/1_Shooter_Bursts.unity",
+        "Assets/StephenHubbard/Scenes/2_Cone_of_Influence.unity",
+        "Assets/StephenHubbard/Scenes/3_Oscillate_and_Stagger.unity",
+        "Assets/Jongallant/Scenes/SampleScene.unity"
+    ]
+}

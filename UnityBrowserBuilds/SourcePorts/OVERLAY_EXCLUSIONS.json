@@ -1,0 +1,17 @@
+{
+  "project-unity-3d-34370a513e": [
+    "Assets/Oculus"
+  ],
+  "project-unity-3d-c59c11a631": [
+    "Assets/Allegorithmic/Plugins/Substance/Livelink"
+  ],
+  "project-unity-3d-88d7a3a035": [
+    "Assets/TextMesh Pro/Plugins",
+    "Assets/TextMesh Pro/Examples & Extras/Scripts"
+  ],
+  "project-unity-3d-5b3952b1e2": [
+    "Assets/Scripts/HostGame.cs",
+    "Assets/Scripts/JoinGame.cs",
+    "Assets/Scripts/RoomListItem.cs"
+  ]
+}

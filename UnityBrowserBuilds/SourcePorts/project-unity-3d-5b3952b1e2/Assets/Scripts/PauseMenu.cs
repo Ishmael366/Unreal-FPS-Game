@@ -1,0 +1,1 @@
+using UnityEngine;using UnityEngine.SceneManagement;public class PauseMenu:MonoBehaviour { public static bool IsOn;public void LeaveRoom(){IsOn=false;SceneManager.LoadScene("MainLevel01");}}

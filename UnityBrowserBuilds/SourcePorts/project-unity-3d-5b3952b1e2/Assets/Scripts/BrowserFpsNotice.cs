@@ -1,0 +1,1 @@
+using UnityEngine;public class BrowserFpsNotice:MonoBehaviour {void OnGUI(){GUI.Box(new Rect(12,12,590,58),"Offline FPS training preview · online matchmaking unavailable\nWASD move · hold right mouse to look · click fire · R reload · Space jetpack");} }

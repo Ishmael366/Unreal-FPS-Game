@@ -1,0 +1,5 @@
+# Unity browser source ports
+
+These are source overlays for the recovered projects, alongside the standalone source for the twelve recreated studies. Apply each overlay to its listed original source archive so the original art, scenes and licensing remain available. Large unchanged art packs are not duplicated here. The browser exports use Unity 2022.3.62f1. Build with Assets/Editor/PortfolioDemoBatch/NativeBatchBuilder.cs; project-specific BrowserProjectPort hooks prepare desktop or offline preview variants where needed. Read each BROWSER_DEMO.md for its scope. Original source notices are retained.
+
+Some browser ports exclude obsolete editor plugins or retired network components. OVERLAY_EXCLUSIONS.json lists the original paths to retain outside Assets when applying those overlays. BrowserOriginalSource preserves the original replaced scripts. These are work-in-progress snapshots where INDEX.json reports a failed or interrupted export; uploading them does not mean those builds are playable.

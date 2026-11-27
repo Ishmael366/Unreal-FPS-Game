@@ -1,0 +1,1 @@
+This browser export is an offline training preview of the recovered FPS arena, player movement, jetpack, weapons, health, target respawn and scoreboard. Retired UNET matchmaking and database login are excluded. Original networking scripts are preserved in BrowserOriginalSource and the original recovery archive. It does not claim to provide online multiplayer.

@@ -1,0 +1,1 @@
+using UnityEngine; public static class BrowserQuietStart { [RuntimeInitializeOnLoadMethod] static void Init() { AudioListener.volume=0; } }

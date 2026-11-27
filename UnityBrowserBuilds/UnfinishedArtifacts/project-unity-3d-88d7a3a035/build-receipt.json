@@ -1,0 +1,15 @@
+{
+    "status": "Failed",
+    "output": "/Users/neo/Documents/Codex/continuation/unity-demos/webgl/unity-3d-88d7a3a035",
+    "unityVersion": "2022.3.62f1",
+    "bytes": 111432567,
+    "errors": 1,
+    "warnings": 16,
+    "scenes": [
+        "Assets/Scenes/MainMenu.unity",
+        "Assets/Scenes/TrackSelect.unity",
+        "Assets/Scenes/RaceArea1.unity",
+        "Assets/Scenes/RaceArea2.unity",
+        "Assets/Scenes/Guide.unity"
+    ]
+}

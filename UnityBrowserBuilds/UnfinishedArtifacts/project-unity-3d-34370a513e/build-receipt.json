@@ -1,0 +1,11 @@
+{
+    "status": "Failed",
+    "output": "/Users/neo/Documents/Codex/continuation/unity-demos/webgl/unity-3d-34370a513e",
+    "unityVersion": "2022.3.62f1",
+    "bytes": 0,
+    "errors": 2,
+    "warnings": 3,
+    "scenes": [
+        "Assets/Scenes/MainScene.unity"
+    ]
+}

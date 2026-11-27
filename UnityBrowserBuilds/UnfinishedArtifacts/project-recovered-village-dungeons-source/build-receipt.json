@@ -1,0 +1,18 @@
+{
+    "status": "Succeeded",
+    "output": "/Users/neo/Documents/Codex/continuation/unity-demos/webgl/recovered-village-dungeons-source",
+    "unityVersion": "2022.3.62f1",
+    "bytes": 37188341,
+    "errors": 3,
+    "warnings": 27,
+    "scenes": [
+        "Assets/menu.unity",
+        "Assets/Town.unity",
+        "Assets/TestScene.unity",
+        "Assets/Dungeon1.unity",
+        "Assets/Dungeon2.unity",
+        "Assets/Dungeon3.unity",
+        "Assets/mainDungeon.unity",
+        "Assets/toBeContinued.unity"
+    ]
+}

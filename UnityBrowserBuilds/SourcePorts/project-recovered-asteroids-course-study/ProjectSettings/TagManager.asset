@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - rock
+  - torpedo
+  - ship
+  - scoreCanvas
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Torpedo
+  - Ship
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2639346523
+    locked: 0
+  - name: Torpedo
+    uniqueID: 3181922697
+    locked: 0
+  - name: Ship
+    uniqueID: 3686363339
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

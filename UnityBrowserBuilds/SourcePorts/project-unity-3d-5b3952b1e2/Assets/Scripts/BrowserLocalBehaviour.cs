@@ -1,0 +1,1 @@
+using UnityEngine;public class BrowserLocalBehaviour:MonoBehaviour { public bool isLocalPlayer { get {var flag=GetComponent<BrowserLocalPlayer>();return flag==null||flag.local;} } public virtual void OnStartClient(){} }

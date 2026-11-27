@@ -1,0 +1,1 @@
+The browser preview retains the original projectile patterns and simulation, using regular mesh instancing instead of unavailable WebGL compute buffers/indirect drawing. Rendering is capped at3000 projectiles per renderer for browser responsiveness. Desktop rendering code is preserved behind its original platform branch and in BrowserOriginalSource.
