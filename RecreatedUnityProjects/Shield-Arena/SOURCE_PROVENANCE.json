@@ -1,0 +1,14 @@
+{
+  "video_id": "1wn5Ur1_vKg",
+  "reference_url": "https://www.youtube.com/watch?v=1wn5Ur1_vKg",
+  "source_kind": "new implementation informed by tutorial transcript and description",
+  "original_tutorial_source_copied": false,
+  "features": [
+    "Pursuit and melee attack timing",
+    "Directional shield mitigation and stamina",
+    "Two health bars, victory/defeat and restart"
+  ],
+  "correspondence": "Topic and core mechanics; not an exact reconstruction of an unpublished project or complete tutorial series",
+  "third_party_art": "none; procedural original art",
+  "transcript_redistributed": false
+}

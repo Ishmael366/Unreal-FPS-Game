@@ -1,0 +1,2 @@
+// Copyright (c) 2026 Daniel Nguyen. MIT License.
+namespace PortfolioStudies { public static class ProjectDefinition { public static Definition Create() { return new Definition { Mode=StudyMode.SideRunner, Title="Sunlit Side Runner", Instructions="A/D or arrows move; Space jump; land on enemies; strike bonus blocks from below; E at the finish.", Objective="Collect ten tokens and reach the finish pole.", Seed=1741 }; } } }

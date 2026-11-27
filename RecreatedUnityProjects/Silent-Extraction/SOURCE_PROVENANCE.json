@@ -1,0 +1,14 @@
+{
+  "video_id": "nK_Kdmaq3NI",
+  "reference_url": "https://www.youtube.com/watch?v=nK_Kdmaq3NI",
+  "source_kind": "new implementation informed by tutorial transcript and description",
+  "original_tutorial_source_copied": false,
+  "features": [
+    "Third-person camera and hitscan weapons",
+    "Guard and drone enemies with health",
+    "Key, locked gate, terminal, two generators and extraction"
+  ],
+  "correspondence": "Topic and core mechanics; not an exact reconstruction of an unpublished project or complete tutorial series",
+  "third_party_art": "none; procedural original art",
+  "transcript_redistributed": false
+}

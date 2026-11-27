@@ -1,0 +1,14 @@
+{
+  "video_id": "JhkoYxuZ2UI",
+  "reference_url": "https://www.youtube.com/watch?v=JhkoYxuZ2UI",
+  "source_kind": "new implementation informed by tutorial transcript and description",
+  "original_tutorial_source_copied": false,
+  "features": [
+    "Health, thirst, hunger and stamina",
+    "Resource pickups and survival clock",
+    "Camp objective and loss/restart loop"
+  ],
+  "correspondence": "Topic and core mechanics; not an exact reconstruction of an unpublished project or complete tutorial series",
+  "third_party_art": "none; procedural original art",
+  "transcript_redistributed": false
+}

@@ -1,0 +1,2 @@
+// Copyright (c) 2026 Daniel Nguyen. MIT License.
+namespace PortfolioStudies { public static class ProjectDefinition { public static Definition Create() { return new Definition { Mode=StudyMode.Multiplayer, Title="LAN Arena", Instructions="Host on one instance, join its IPv4 address on another; WASD move. Port 7777. Native desktop LAN prototype.", Objective="Meet other players in the arena.", Seed=1539 }; } } }

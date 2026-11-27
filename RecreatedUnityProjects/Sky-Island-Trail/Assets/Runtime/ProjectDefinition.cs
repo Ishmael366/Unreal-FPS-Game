@@ -1,0 +1,2 @@
+// Copyright (c) 2026 Daniel Nguyen. MIT License.
+namespace PortfolioStudies { public static class ProjectDefinition { public static Definition Create() { return new Definition { Mode=StudyMode.SkyIslands, Title="Sky Island Trail", Instructions="WASD move; mouse camera; Space jump; collect six gems; E at the last beacon.", Objective="Collect six gems and activate the final beacon.", Seed=2145 }; } } }

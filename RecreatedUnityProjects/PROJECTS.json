@@ -1,0 +1,170 @@
+[
+  {
+    "video_id": "JhkoYxuZ2UI",
+    "slug": "Forest-Survival",
+    "title": "Forest Survival",
+    "mode": "Survival",
+    "features": [
+      "Health, thirst, hunger and stamina",
+      "Resource pickups and survival clock",
+      "Camp objective and loss/restart loop"
+    ],
+    "status": "new implementation; source compile passed; runtime unverified",
+    "runtime_verified": false,
+    "source_folder": "Forest-Survival"
+  },
+  {
+    "video_id": "iqUVJuzOd2U",
+    "slug": "Wind-Meadow",
+    "title": "Wind Meadow",
+    "mode": "Meadow",
+    "features": [
+      "Rolling terrain and collision",
+      "25 mesh grass patches with a custom wind shader",
+      "Grass visibility, wind and sun controls"
+    ],
+    "status": "new implementation; source compile passed; runtime unverified",
+    "runtime_verified": false,
+    "source_folder": "Wind-Meadow"
+  },
+  {
+    "video_id": "Z74uc-Lcu84",
+    "slug": "LAN-Arena",
+    "title": "LAN Arena",
+    "mode": "Multiplayer",
+    "features": [
+      "Host and join through real UDP sockets",
+      "Host-authoritative movement and snapshots",
+      "Eight-player cap, bounded packets and disconnect cleanup"
+    ],
+    "status": "new implementation; source compile passed; runtime unverified",
+    "runtime_verified": false,
+    "source_folder": "LAN-Arena"
+  },
+  {
+    "video_id": "EAiV7gZv69M",
+    "slug": "Shrine-Path",
+    "title": "Shrine Path",
+    "mode": "ClickRpg",
+    "features": [
+      "Click-to-move with world collision",
+      "Selected-target approach and melee combat",
+      "Four enemies, healing pickup and shrine objective"
+    ],
+    "status": "new implementation; source compile passed; runtime unverified",
+    "runtime_verified": false,
+    "source_folder": "Shrine-Path"
+  },
+  {
+    "video_id": "M-1-XxO-Fyo",
+    "slug": "Sunlit-Side-Runner",
+    "title": "Sunlit Side Runner",
+    "mode": "SideRunner",
+    "features": [
+      "Side-view movement and gap jumping",
+      "Stomp defeats, bonus blocks and token pickups",
+      "Original geometric art; no Nintendo assets"
+    ],
+    "status": "new implementation; source compile passed; runtime unverified",
+    "runtime_verified": false,
+    "source_folder": "Sunlit-Side-Runner"
+  },
+  {
+    "video_id": "ewwpuprq4sk",
+    "slug": "Castle-Relics",
+    "title": "Castle Relics",
+    "mode": "Castle",
+    "features": [
+      "Double-jump and dash unlocks",
+      "Melee combat, sealed gate and boss encounter",
+      "Side-view castle route and healing pickup"
+    ],
+    "status": "new implementation; source compile passed; runtime unverified",
+    "runtime_verified": false,
+    "source_folder": "Castle-Relics"
+  },
+  {
+    "video_id": "vytmNNKKAfo",
+    "slug": "Neon-Vault",
+    "title": "Neon Vault",
+    "mode": "Dungeon",
+    "features": [
+      "Top-down arena and encounter activation",
+      "Pistol, spread and automatic fire modes",
+      "Pursuers, ranged enemy, volley boss and exit gate"
+    ],
+    "status": "new implementation; source compile passed; runtime unverified",
+    "runtime_verified": false,
+    "source_folder": "Neon-Vault"
+  },
+  {
+    "video_id": "nK_Kdmaq3NI",
+    "slug": "Silent-Extraction",
+    "title": "Silent Extraction",
+    "mode": "Infiltration",
+    "features": [
+      "Third-person camera and hitscan weapons",
+      "Guard and drone enemies with health",
+      "Key, locked gate, terminal, two generators and extraction"
+    ],
+    "status": "new implementation; source compile passed; runtime unverified",
+    "runtime_verified": false,
+    "source_folder": "Silent-Extraction"
+  },
+  {
+    "video_id": "7Ow3b1DfGmo",
+    "slug": "Sky-Island-Trail",
+    "title": "Sky Island Trail",
+    "mode": "SkyIslands",
+    "features": [
+      "Third-person platforming over twelve islands",
+      "Moving platform carry and gem collection",
+      "Fall loss, beacon requirement and restart"
+    ],
+    "status": "new implementation; source compile passed; runtime unverified",
+    "runtime_verified": false,
+    "source_folder": "Sky-Island-Trail"
+  },
+  {
+    "video_id": "2oLyySEbUMo",
+    "slug": "Archive-Escape",
+    "title": "Archive Escape",
+    "mode": "Horror",
+    "features": [
+      "Two fixed camera regions and shoulder-camera toggle",
+      "Key-locked door and escape mechanism",
+      "Slow pursuers, limited ammunition and flashlight"
+    ],
+    "status": "new implementation; source compile passed; runtime unverified",
+    "runtime_verified": false,
+    "source_folder": "Archive-Escape"
+  },
+  {
+    "video_id": "zMtfCjkYEnQ",
+    "slug": "Facility-Breach",
+    "title": "Facility Breach",
+    "mode": "Shooter",
+    "features": [
+      "First-person shooting, ammunition and reload timing",
+      "Patrolling ranged enemies and line of sight",
+      "Cover layout, supplies and extraction objective"
+    ],
+    "status": "new implementation; source compile passed; runtime unverified",
+    "runtime_verified": false,
+    "source_folder": "Facility-Breach"
+  },
+  {
+    "video_id": "1wn5Ur1_vKg",
+    "slug": "Shield-Arena",
+    "title": "Shield Arena",
+    "mode": "Duel",
+    "features": [
+      "Pursuit and melee attack timing",
+      "Directional shield mitigation and stamina",
+      "Two health bars, victory/defeat and restart"
+    ],
+    "status": "new implementation; source compile passed; runtime unverified",
+    "runtime_verified": false,
+    "source_folder": "Shield-Arena"
+  }
+]

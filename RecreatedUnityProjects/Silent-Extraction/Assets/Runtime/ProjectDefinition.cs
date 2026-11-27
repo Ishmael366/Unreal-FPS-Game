@@ -1,0 +1,2 @@
+// Copyright (c) 2026 Daniel Nguyen. MIT License.
+namespace PortfolioStudies { public static class ProjectDefinition { public static Definition Create() { return new Definition { Mode=StudyMode.Infiltration, Title="Silent Extraction", Instructions="WASD move; mouse look; Space jump; Shift sprint; left click fire; R reload; E use objectives.", Objective="Find the key, shut down the terminal and both generators, then extract.", Seed=2044 }; } } }

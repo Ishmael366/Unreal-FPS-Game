@@ -1,0 +1,2 @@
+// Copyright (c) 2026 Daniel Nguyen. MIT License.
+namespace PortfolioStudies { public static class ProjectDefinition { public static Definition Create() { return new Definition { Mode=StudyMode.Survival, Title="Forest Survival", Instructions="WASD move; mouse look; Space jump; Shift sprint; E interact. Collect three wood and establish camp after 60 seconds.", Objective="Collect supplies, watch food and water, and establish camp.", Seed=1337 }; } } }

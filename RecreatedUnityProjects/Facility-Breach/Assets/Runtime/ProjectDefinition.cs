@@ -1,0 +1,2 @@
+// Copyright (c) 2026 Daniel Nguyen. MIT License.
+namespace PortfolioStudies { public static class ProjectDefinition { public static Definition Create() { return new Definition { Mode=StudyMode.Shooter, Title="Facility Breach", Instructions="WASD move; mouse look; Shift sprint; Space jump; left click fire; R reload; E extract.", Objective="Clear all six guards and reach extraction.", Seed=2347 }; } } }

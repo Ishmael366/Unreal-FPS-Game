@@ -1,0 +1,14 @@
+{
+  "video_id": "7Ow3b1DfGmo",
+  "reference_url": "https://www.youtube.com/watch?v=7Ow3b1DfGmo",
+  "source_kind": "new implementation informed by tutorial transcript and description",
+  "original_tutorial_source_copied": false,
+  "features": [
+    "Third-person platforming over twelve islands",
+    "Moving platform carry and gem collection",
+    "Fall loss, beacon requirement and restart"
+  ],
+  "correspondence": "Topic and core mechanics; not an exact reconstruction of an unpublished project or complete tutorial series",
+  "third_party_art": "none; procedural original art",
+  "transcript_redistributed": false
+}

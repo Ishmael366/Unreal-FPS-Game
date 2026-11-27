@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+**/Library/
+**/Temp/
+**/Logs/
+**/Build/
+**/Builds/
+.DS_Store
+!Tests/RulesChecks.csproj

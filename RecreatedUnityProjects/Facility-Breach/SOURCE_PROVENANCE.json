@@ -1,0 +1,14 @@
+{
+  "video_id": "zMtfCjkYEnQ",
+  "reference_url": "https://www.youtube.com/watch?v=zMtfCjkYEnQ",
+  "source_kind": "new implementation informed by tutorial transcript and description",
+  "original_tutorial_source_copied": false,
+  "features": [
+    "First-person shooting, ammunition and reload timing",
+    "Patrolling ranged enemies and line of sight",
+    "Cover layout, supplies and extraction objective"
+  ],
+  "correspondence": "Topic and core mechanics; not an exact reconstruction of an unpublished project or complete tutorial series",
+  "third_party_art": "none; procedural original art",
+  "transcript_redistributed": false
+}

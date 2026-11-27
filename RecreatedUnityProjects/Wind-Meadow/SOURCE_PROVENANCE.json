@@ -1,0 +1,14 @@
+{
+  "video_id": "iqUVJuzOd2U",
+  "reference_url": "https://www.youtube.com/watch?v=iqUVJuzOd2U",
+  "source_kind": "new implementation informed by tutorial transcript and description",
+  "original_tutorial_source_copied": false,
+  "features": [
+    "Rolling terrain and collision",
+    "25 mesh grass patches with a custom wind shader",
+    "Grass visibility, wind and sun controls"
+  ],
+  "correspondence": "Topic and core mechanics; not an exact reconstruction of an unpublished project or complete tutorial series",
+  "third_party_art": "none; procedural original art",
+  "transcript_redistributed": false
+}

@@ -1,0 +1,2 @@
+// Copyright (c) 2026 Daniel Nguyen. MIT License.
+namespace PortfolioStudies { public static class ProjectDefinition { public static Definition Create() { return new Definition { Mode=StudyMode.Castle, Title="Castle Relics", Instructions="A/D move; Space jump; collect double jump and dash relics; Shift dash; left click attack; E interact.", Objective="Defeat the warden and escape the castle.", Seed=1842 }; } } }

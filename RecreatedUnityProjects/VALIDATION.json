@@ -1,0 +1,21 @@
+{
+  "compiled_projects": [
+    "Forest-Survival",
+    "Wind-Meadow",
+    "LAN-Arena",
+    "Shrine-Path",
+    "Sunlit-Side-Runner",
+    "Castle-Relics",
+    "Neon-Vault",
+    "Silent-Extraction",
+    "Sky-Island-Trail",
+    "Archive-Escape",
+    "Facility-Breach",
+    "Shield-Arena"
+  ],
+  "unity_reference_version": "2021.3.33",
+  "rules_and_network": "PASS: 39 assertions; real loopback host + two clients, snapshots, invalid input, disconnects, ammo, survival and objectives.",
+  "unity_editor_import_verified": false,
+  "shader_compile_verified": false,
+  "playable_build_verified": false
+}

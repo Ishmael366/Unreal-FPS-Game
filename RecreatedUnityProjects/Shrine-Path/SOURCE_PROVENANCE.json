@@ -1,0 +1,14 @@
+{
+  "video_id": "EAiV7gZv69M",
+  "reference_url": "https://www.youtube.com/watch?v=EAiV7gZv69M",
+  "source_kind": "new implementation informed by tutorial transcript and description",
+  "original_tutorial_source_copied": false,
+  "features": [
+    "Click-to-move with world collision",
+    "Selected-target approach and melee combat",
+    "Four enemies, healing pickup and shrine objective"
+  ],
+  "correspondence": "Topic and core mechanics; not an exact reconstruction of an unpublished project or complete tutorial series",
+  "third_party_art": "none; procedural original art",
+  "transcript_redistributed": false
+}

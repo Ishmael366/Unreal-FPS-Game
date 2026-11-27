@@ -1,0 +1,2 @@
+// Copyright (c) 2026 Daniel Nguyen. MIT License.
+namespace PortfolioStudies { public static class ProjectDefinition { public static Definition Create() { return new Definition { Mode=StudyMode.Dungeon, Title="Neon Vault", Instructions="WASD move; mouse aim; left click fire; 1/2/3 weapon modes; Shift dash; R reload; E gates.", Objective="Enter the vault, defeat the warden, and leave.", Seed=1943 }; } } }

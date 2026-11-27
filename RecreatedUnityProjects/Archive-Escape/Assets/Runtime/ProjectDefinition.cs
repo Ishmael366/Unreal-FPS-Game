@@ -1,0 +1,2 @@
+// Copyright (c) 2026 Daniel Nguyen. MIT License.
+namespace PortfolioStudies { public static class ProjectDefinition { public static Definition Create() { return new Definition { Mode=StudyMode.Horror, Title="Archive Escape", Instructions="WASD move; mouse turn; left click fire; R reload; F flashlight; C fixed/shoulder camera; E interact.", Objective="Find the archive key, restore the mechanism, and escape.", Seed=2246 }; } } }

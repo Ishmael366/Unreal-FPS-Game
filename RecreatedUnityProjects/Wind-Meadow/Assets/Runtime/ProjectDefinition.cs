@@ -1,0 +1,2 @@
+// Copyright (c) 2026 Daniel Nguyen. MIT License.
+namespace PortfolioStudies { public static class ProjectDefinition { public static Definition Create() { return new Definition { Mode=StudyMode.Meadow, Title="Wind Meadow", Instructions="WASD explore; mouse look; Space jump; G toggle grass; T change sun angle; adjust wind slider.", Objective="Explore the rolling meadow and compare wind and lighting.", Seed=1438 }; } } }

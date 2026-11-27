@@ -1,0 +1,2 @@
+// Copyright (c) 2026 Daniel Nguyen. MIT License.
+namespace PortfolioStudies { public static class ProjectDefinition { public static Definition Create() { return new Definition { Mode=StudyMode.ClickRpg, Title="Shrine Path", Instructions="Left-click ground to move or an enemy to approach and attack. Defeat four guards, then use E at the shrine.", Objective="Clear the courtyard and reach the shrine.", Seed=1640 }; } } }
